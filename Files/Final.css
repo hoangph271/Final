@@ -1,0 +1,234 @@
+#bgrButt {
+    position: relative;
+    color: white;
+    top: 00px;
+    left: 575px;
+    list-style-type: none;
+    font-size: 200%;
+    z-index: 1;
+}
+html {
+    background-color: #000;
+    color: white;
+}
+#navBar {
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    width: 98.8%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+#Home {
+    z-index: 5;
+    position: fixed;
+    top: 10px;
+    left: 603px;
+}
+.navItem {
+    width: 50px;
+    display: block;
+    color: white;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding: 21px 15px;
+    text-decoration: none;
+}
+.navItem:hover {
+    background-color: #414141;
+}
+#gamesOpt {
+    background-color: #414141;
+    display: none;
+    min-width: 160px;
+    position: absolute;
+}
+#Games:hover #gamesOpt {
+    display: block;
+}
+#Games:hover #gamesButt {
+    background-color: #414141;
+}
+#contactsOpt {
+    background-color: #414141;
+    display: none;
+    min-width: 260px;
+    right: 00px;
+    position: absolute;
+}
+#Contacts:hover #contactsOpt {
+    display: block;
+}
+#Contacts:hover #contButt {
+    background-color: #414141;
+}
+#appsOpt {
+    background-color: #414141;
+    display: none;
+    min-width: 160px;
+    left: 0px;
+    position: absolute;
+}
+#Apps:hover #appsOpt {
+    display: block;
+}
+#Apps:hover #appsOpt {
+    background-color: #414141;
+}
+#bgrHead1 {
+    background-image: url("bgd_header.jpg");
+}
+#bgrHead2 {
+    background-image: url("bgd_header2.png");
+}
+#newTitle1 {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 120, 120, 0.35);
+    box-shadow: 0px 8px 16px 0px rgba(0, 120, 0, 0.4);
+    vertical-align: bottom;
+    padding: 60px 1 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 3;
+    left: 150px;
+    top: 265px;
+    font-family: monospace;
+    color: black;
+}
+#newFrame1 {
+    text-align: justify;
+    position: absolute;
+    background-color: rgba(0, 120, 120, 0.35);
+    box-shadow: 0px 8px 16px 0px rgba(0, 120, 0, 0.4);
+    vertical-align: bottom;
+    padding: 60px 1 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 3;
+    left: 150px;
+    top: 365px;
+    font-family: monospace;
+    color: black;
+}
+#newTitle2 {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.65);
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.4);
+    vertical-align: bottom;
+    padding: 60px 1 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 3;
+    left: 150px;
+    top: 265px;
+    font-family: monospace;
+    color: black;
+}
+#newFrame2 {
+    text-align: justify;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.65);
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.4);
+    vertical-align: bottom;
+    padding: 60px 1 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 3;
+    left: 150px;
+    top: 365px;
+    font-family: monospace;
+    color: black;
+}
+#logo_biu {
+    position: absolute;
+    vertical-align: bottom;
+    padding: 60px 1 25px;
+    z-index: 3;
+    left: 150px;
+    top: 65px;
+}
+#logo {
+    position: absolute;
+    vertical-align: bottom;
+    padding: 60px 1 25px;
+    z-index: 3;
+    left: 150px;
+    top: 65px;
+}
+.nextIcon {
+    color: cyan;
+    position: absolute;
+    vertical-align: bottom;
+    padding: 60px 1 25px;
+    z-index: 10;
+    left: 490px;
+    top: 573px;
+}
+#newFrame h2 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#skyBreaker th,
+tr {
+    padding: 5px;
+    min-width: 321px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.4);
+}
+.muteIcon {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 255, 255, 0.35);
+    z-index: 5;
+    position: fixed;
+    top: 645px;
+    left: 1285px;
+    width: 3%;
+}
+#findFB {
+    vertical-align: middle;
+    width: 8%;
+}
+#findYT {
+    vertical-align: middle;
+    width: 11%;
+}
+.pageFooter {
+    background: black;
+}
+#copyRight {
+    text-align: center;
+}
+.gearStore {
+    background: rgb(13, 13, 13);
+}
+.storeItem {
+    text-align: center;
+    background: black;
+}
+.gameItem {
+    text-align: center;
+    background: black;
+}
+.gameItem h3 {
+    color: rgb(0, 204, 0);
+    font-family: "Comic Sans MS";
+}
+.storeItem h3 {
+    color: rgb(0, 204, 0);
+    font-family: "Comic Sans MS";
+}
+#showImg{
+    text-align: center;
+}
+#showImg img{
+    box-shadow: 0px 8px 8px 0px rgba(255, 255, 255, 0.4);
+}
+.galImg:hover{
+    box-shadow: 0px 8px 5px 2px rgba(0, 200, 255, 0.4);
+}
